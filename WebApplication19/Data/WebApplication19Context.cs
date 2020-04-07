@@ -20,5 +20,7 @@ namespace WebApplication19.Data
         }
 
         public System.Data.Entity.DbSet<WebApplication19.Models.Product> Products { get; set; }
+
+        public System.Data.Entity.DbSet<WebApplication19.Models.Category> Categories { get; set; }
     }
 }
